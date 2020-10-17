@@ -12,7 +12,7 @@ function preload()
 }
 
 function setup() {
-	createCanvas(800, 700);
+	createCanvas(800, 600);
 	rectMode(CENTER);
 	
 
@@ -36,7 +36,7 @@ function setup() {
 	
 
 	//Create a Ground
-	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
+	ground = Bodies.rectangle(width/2, 550, width, 10 , {isStatic:true} );
  	World.add(world, ground);
 
 
